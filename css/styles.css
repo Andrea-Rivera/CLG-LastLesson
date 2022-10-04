@@ -251,11 +251,12 @@ img{
     font-family: sans-serif;
     margin-top: 20px;
     text-align: center;
+    margin:15px;
 }
    /*Footer */
 footer {
     position:relative;
-    bottom: 0;
+    margin: 0px;
     background-color:rgb(11, 111, 91);
     text-align: center;
     width: 100%;
@@ -274,14 +275,16 @@ footer a{
 }
 
 /*********MEDIA QUERIES*************/
-@media (min-width: 25em) {
-    .navbar-brand{
-        font-family: 'Arial'; 
-    }
+@media (min-width: 56.25em) {
+  body  {
+    background-color: rgb(224, 224, 204);
+  }
 
     .section-wrapper {
-        display: flex;
        
+        display:flex;
+        flex-direction: row;
+        
     }
     
 }
